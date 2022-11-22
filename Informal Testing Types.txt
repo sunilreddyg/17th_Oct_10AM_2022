@@ -1,0 +1,67 @@
+Informal Testing types:-->
+
+
+What is Exploratory Testing?
+	Usually, this process will be carried out by domain experts. 
+	They perform testing just by exploring the functionalities 
+	of the application without having the knowledge of the requirements.
+
+What is Monkey Testing?
+	Perform abnormal action on the application deliberately in order 
+	to verify the stability of the application.
+
+Adhoc testing:-->
+
+	Ad-hoc testing is quite opposite to the formal testing. It is an informal 
+	testing type.In Adhoc testing, testers randomly test the application 
+	without following any documents and test design techniques
+
+Gorilla Testing:-->
+	
+	perform repeated testing on perticular module/function in order to check
+	stability of application
+
+==================================================================
+System Intergration Testing:-->
+	Also know  as component integration testing or End to End system testing.
+	=> Some times requirements are design to use in different state of softwarE
+	   then testing team need to verify the requirement are functioning
+	   everywhere client expected it to be.
+==================================================================
+What are the principles of Software Testing?
+	1. Testing shows presence of defects.
+	2. Exhaustive testing is impossible
+	3. Early testing
+	4. Defect clustering
+	5. Pesticide Paradox
+	6. Testing is context depending
+	
+
+
+1. What is Exhaustive Testing?
+	Testing all the functionalities using all valid and invalid inputs 
+	and preconditions is known as Exhaustive testing.
+
+2. What is Early Testing?
+	Defects detected in early phases of SDLC are less expensive to fix. 
+	So conducting early testing reduces the cost of fixing defects.
+
+3. What is Defect clustering?
+	Defect clustering in software testing means that a small module or 
+	functionality contains most of the bugs or it has the most operational 
+	failures.
+
+4. What is Pesticide Paradox?
+	Pesticide Paradox in software testing is the process of repeating the same test
+	again and again, eventually, the same test cases will no longer find new defects.
+	So to overcome this Pesticide Paradox, it is necessary to review the test
+	cases regularly and add or update them to find more defects.
+
+5. What is Defect Cascading in Software Testing?
+	Defect cascading in Software testing means triggering of other defects
+	in an application. When a defect is not identified or goes unnoticed while 
+	testing, it invokes other defects. 
+	It leads to multiple defects in the later stages and results.			in an increase in a number of defects in the application.
+
+
+
