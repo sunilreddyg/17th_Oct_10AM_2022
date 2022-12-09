@@ -20,7 +20,6 @@ public class Movies
 		new Movies().play();
 		new Movies().pause();
 		new Movies().stop();
-
 	}
 
 }
