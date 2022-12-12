@@ -22,6 +22,5 @@ public class SmartDoor
 		//Calling static methods from different class
 		SmartDoor.Open();
 		SmartDoor.shut();
-		
 	}
 }
