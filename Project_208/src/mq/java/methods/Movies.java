@@ -15,11 +15,18 @@ public class Movies
 	{ 
 		System.out.println("stop the movie");
 	}
+	
+	//Without public modifier we can't access outside the package
+	void resume()
+	{
+		System.out.println("Executed");
+	}
 	public static void main(String[] args) 
 	{
 		new Movies().play();
 		new Movies().pause();
 		new Movies().stop();
+		new Movies().resume();
 	}
 
 }
