@@ -17,7 +17,6 @@ public class LaunchBrowsers
 		System.out.println(chrome.getTitle());
 		chrome.close();
 		
-		
 		/*
 		 * new ChromeDriver();
 		 * 			Open ChromeBrowser 
@@ -59,7 +58,7 @@ public class LaunchBrowsers
 		WebDriver edge=new EdgeDriver();
 		edge.get("http://gmail.com");
 		System.out.println(edge.getTitle());
-		
+	
 	}
 
 }
