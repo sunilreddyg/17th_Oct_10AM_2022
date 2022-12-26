@@ -22,6 +22,19 @@ public class Dropdown_Selection_Using_KeyBoard_Shortcuts {
 		
 		//dropdown selection using keyboard shortcuts
 		driver.findElement(By.id("month")).sendKeys(Keys.ARROW_UP,Keys.ARROW_UP);
+		
+		/*
+		 * Sendkeys allow keyboard shortcuts. For keyboard shortcuts
+		 * Webdriver never through any exception on failures..
+		 */
 	}
 
 }
+
+
+
+
+
+
+
+
