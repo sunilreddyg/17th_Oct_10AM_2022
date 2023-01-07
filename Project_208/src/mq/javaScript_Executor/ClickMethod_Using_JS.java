@@ -19,7 +19,6 @@ public class ClickMethod_Using_JS {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	
 		
-		
 		//Regular Method
 		driver.findElement(By.linkText("Log in")).click();
 		driver.navigate().back();
