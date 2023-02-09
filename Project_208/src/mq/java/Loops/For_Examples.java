@@ -66,15 +66,25 @@ public class For_Examples
 		
 		
 		
+		//Reverse a String
+		String Toolname="selenium";
+		
+		char arr[]=Toolname.toCharArray();
+		String str="";
+		for (int i = arr.length-1; i >=0 ; i--) 
+		{
+			char c = arr[i];
+			str=str+c;
+		}
+		System.out.println(str);
 		
 		
 		
 		
-		
-		
-		
-		
-		
+		//How to revers a string using string builder
+		String Username="linus";
+		String UID=new StringBuilder(Username).reverse().toString();
+		System.out.println(UID);
 		
 		
 		
