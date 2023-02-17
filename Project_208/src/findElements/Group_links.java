@@ -43,11 +43,11 @@ public class Group_links
 					driver.switchTo().window(EachwindowID);
 					if(driver.getCurrentUrl().contains(Linkhref))
 					{
-						System.out.println(LinkName+"   "+"Title matched");
+						System.out.println(LinkName+"   "+"URL matched");
 					}
 					else
 					{
-						System.out.println(LinkName+"   "+"Title mismatched");
+						System.out.println(LinkName+"   "+"URL mismatched");
 					}
 					driver.close();
 					break;	
