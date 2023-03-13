@@ -13,7 +13,7 @@ Recognize object with unique attributes
 Syntax:-->
 		//tagname[@property='propertyvalue']
 
-		//input[@id='email']
+		
 -------------------------------------------------------------------
 
 Example2:--->
@@ -36,7 +36,7 @@ and child doesn't have unique properties
 Syntax:--->
 		//parenttagname[@property='pvalue']/childtagname
 		
-		by.xpath("//div[@id=reg_login']/input")
+	
 		
 		Note:--> Here forward slash  "/" identify first child element under parent
 
@@ -61,7 +61,7 @@ Recognize object when parent element having Group child element
 syntax:-->
 		//parentagname[property='propertyvalue']/childtagname[prop='propvalue']
 		
-		By.xpath("//div[@id='reg_login']/input[@type='text']")
+		
 --------------------------------------------------------------------------
 Example4:--> Absolute xpath  [Identify location using position]
 	
@@ -83,10 +83,10 @@ HtmlSource:-->
 		Syntax:--> 
 				tagname[int position]
 				
-				/html/body/div[2]/input[2]
+			
 				
 		Xpath Index:-->
-				//input[2]
+			
 
 --------------------------------------------------------------------	
 Example5:-->
@@ -107,7 +107,7 @@ Htmlsource:--->
 Xpath position:-->
 			//parenttagname[@prop='propvalue']/childtagname[int pos]
 		
-			//div[@id='reg_login']/input[2]
+			
 -------------------------------------------------------------------------
 Example6:-->
 Recognize object with multiple attributes[using <AND> comparision]
@@ -130,7 +130,7 @@ Syntax:-->
 			//tagname[@prop='pvalue'  and  @prop='pvalue']
 			//tagname[@prop='pvalue'  and  text()='outterText']
 
-			//input[@id='email' and  @type='email']
+			
 ----------------------------------------------------------------------------
 Example7:-->
 Recognize object with multiple attributes[using <OR> comparision]		
@@ -149,8 +149,7 @@ Syntax:-->
 		 //tagname[@prop='pvalue' or @prop='pvalue']
 		 //tagname[@prop='pvalue' or text()='visibletext']
 		 
-		 //div[@id='sample' or @name='user']
-		 //div[@id='sample' or text()='Create Account']
+		 
 ----------------------------------------------------------------------------
 Example8:-->
 Recognize object with multiple attributes[using <OR> <And> comparision]		
@@ -196,8 +195,7 @@ Example 10:--->
 		</div>
 </body>
 </html>		
-					
-					(//input[@id='email'])[2]
+				
 					
 ----------------------------------------------------------------------------
 Example11:-->
@@ -213,7 +211,7 @@ HtmlSource:-->
 	Syntax:-->
 			//SiblingElement/following-sibling::tagname
 		
-		   //input[@id='firstname']/following-sibling::div
+		  
 		
 --------------------------------------------------------------------------------		
 Example12:-->
@@ -263,7 +261,7 @@ HtmlSource:-->
 		</div>	
 		
 		
-		//input[@id='firstname']/preceding-sibling::div[2]
+		
 ------------------------------------------------------------------------------->
 Recognize object with  ancestor:--->
 	
@@ -286,7 +284,7 @@ HtmSource:-->
 		</div>
 Example:--->
 			
-		//li[.='user2']/ancestor::div[1]/ul[2]/li[2]
+		
 			 
 
 ========================================================================
@@ -309,5 +307,5 @@ HtmlSource:-->
 	
 		Syntax:-->
 		
-		//div[@id='login_container']/descandant::input
+		
 ===============================================================			
